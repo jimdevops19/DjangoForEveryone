@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a95d78f2-5b22-4760-8d6d-6674ffd920d4" name="Default Changelist" comment="" />
+    <list default="true" id="a95d78f2-5b22-4760-8d6d-6674ffd920d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/DjangoForEveryone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/baseapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/baseapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +66,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DFE-Workspace/w6_TAKEN/DjangoExtensions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
@@ -124,11 +136,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1626013758519">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1624285957385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.-19.1920.1040/0.0.1920.1040/3840.-294.1080.1880@0.0.1920.1040" timestamp="1626013758519" />
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.-19.1920.1040/3840.-294.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1624727330329" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.-19.1920.1040/0.0.1920.1040/3840.-294.1080.1880@0.0.1920.1040" timestamp="1624285957385" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1624285975220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
