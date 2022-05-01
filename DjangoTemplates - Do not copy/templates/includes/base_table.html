@@ -1,0 +1,50 @@
+<div class="card">
+  <div class="card-header">
+    <h3 class="card-title">{{ table_title | default:"Base Table" }}</h3>
+  </div>
+  <!-- /.card-header -->
+  <div class="card-body p-0">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th style="width: 10px">#</th>
+          <th>Task</th>
+          <th>Progress</th>
+          <th style="width: 40px">Label</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in data %}
+        <tr>
+          <td>{{ row.id }}</td>
+          <td>{{ row.name }}</td>
+          {% if row.progress_pct < 100 %}
+            <td>
+              <div class="progress progress-xs">
+                <div class="progress-bar bg-danger" style="width: {{row.progress_pct}}%"></div>
+              </div>
+            </td>
+            <td>
+            <span class="badge bg-danger">
+              {{row.progress_pct}}%
+            </span>
+          </td>
+          {% else %}
+            <td>
+              <div class="progress progress-xs">
+                <div class="progress-bar bg-success" style="width: {{row.progress_pct}}%"></div>
+              </div>
+            </td>
+            <td>
+              <span class="badge bg-success">
+                {{row.progress_pct}}%
+              </span>
+            </td>
+          {% endif %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <!-- /.card-body -->
+</div>
