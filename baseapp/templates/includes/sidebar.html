@@ -3,8 +3,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
 <!-- Brand Logo -->
 <a href="{% url 'home_page' %}" class="brand-link elevation-4">
-  <img src="{% static 'dist/img/logo.png' %}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-  <span class="brand-text font-weight-light">JimShapedCoding</span>
+  <img src="{% static 'dist/img/logo2.png' %}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+  <span class="brand-text font-weight-light">ብልጽና ፓርቲ H.Q</span>
 </a>
 
 <!-- Sidebar -->
@@ -12,10 +12,10 @@
   <!-- Sidebar user (optional) -->
   <div class="user-panel mt-3 pb-3 mb-3 d-flex">
     <div class="image">
-      <img src="{% static 'dist/img/secondary-logo.png' %}" class="img-circle elevation-2" alt="User Image">
+      <img src="{% static 'dist/img/secondary-logo.jpg' %}" class="img-circle elevation-2" alt="User Image">
     </div>
     <div class="info">
-      <a href="{% url 'home_page' %}" class="d-block">Django Tutorials</a>
+      <a href="{% url 'home_page' %}" class="d-block">{{ user.username }}</a>
     </div>
   </div>
 
@@ -26,9 +26,73 @@
            with font-awesome or any other icon font library -->
       <li class="nav-item">
         <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-tachometer-alt"></i>
+          <i class="nav-icon fas "></i>
           <p>
-            Options
+            ይ-ስቶር 
+            <i class="right fas fa-angle-left"></i>
+          </p>
+        </a>
+        <ul class="nav nav-treeview">
+          <li class="nav-item">
+            <a href="/item" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>አጠቃላይ እቃ</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>ያለቁ እቃዎችህ</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>የታዘዙ እቃዎች</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <i class="nav-icon fas "></i>
+          <p>
+            ሰራተኛ
+            <i class="right fas fa-angle-left"></i>
+          </p>
+        </a>
+        <ul class="nav nav-treeview">
+          <li class="nav-item">
+            <a href="/employeelist" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>አጠቃላይ ሰራተኛ</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>እቃ ለመስጠት</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>ተመላሽ እቃ ለመረከብ</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>የእቃ መጠይቅ ለመቀበል</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <i class="nav-icon fas "></i>
+          <p>
+            ሪፖርት
             <i class="right fas fa-angle-left"></i>
           </p>
         </a>
@@ -36,19 +100,13 @@
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
-              <p>Option 1</p>
+              <p>የስቶር-ሪፖርት</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="far fa-circle nav-icon"></i>
-              <p>Option 2</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
-              <p>Option 3</p>
+              <p>ወሳኝ-ሪፖርት</p>
             </a>
           </li>
         </ul>

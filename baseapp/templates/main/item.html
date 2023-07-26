@@ -1,0 +1,57 @@
+
+
+
+{% extends 'base.html' %}      
+
+{% block content %}
+
+<div class="card">
+    <div class="card-header">
+      <h3 class="card-title">አጠቃላይ እቃዎች</h3>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+       
+      <table id="example1" class="table table-bordered table-striped">
+        <thead>
+        <tr>
+          <th>id</th>
+          <th>item_name</th>
+          <th>item_code</th>
+          <th>Catagory</th>
+          <th>Stock</th>
+          <th>Current_Quantity</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for i in item %}
+            <tr>
+              <td>{{i.id}}</td>  
+              <td>{{i.item_name}}</td>
+              <td>{{i.item_code}}</td>
+              <td>{{i.Catagory}}</td>
+              <td>{{i.stock_name}}</td>
+              <td>{{i.Current_Quantity}}</td><br>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+        <tr>
+          <th>id</th>
+          <th>item_name</th>
+          <th>item_code</th>
+          <th>Catagory</th>
+          <th>Stock</th>
+          <th>Current_Quantity</th>
+        </tr>
+        </tfoot>
+      </table>
+    </div>
+    <!-- /.card-body -->
+  </div>
+  
+
+
+{%endblock content%}
+
+   

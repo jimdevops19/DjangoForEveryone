@@ -1,0 +1,61 @@
+
+
+
+{% extends 'base.html' %}      
+
+{% block content %}
+
+<div class="card">
+    <div class="card-header">
+      <h3 class="card-title">አጠቃላይ employee</h3>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+       
+      <table id="example1" class="table table-bordered table-striped">
+        <thead>
+        <tr>
+          <th>id</th>
+          <th>employee_name</th>
+          <th>Gender</th>
+          <th>sector</th>
+          <th>Department</th>
+          <th>position</th>
+          <th>Date-employee</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for i in employee %}
+            <tr>
+              <td>{{i.id}}</td>  
+              <td>{{i.employee_name}}</td>
+              <td>{{i.gender}}</td>
+              <td>{{i.sector_name}}</td>
+              <td>{{i.department_name}}</td>
+              <td>{{i.position_name}}</td>
+              <td>{{i.date_of_employement}}</td>
+              <br>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+        <tr>
+            <th>id</th>
+            <th>employee_name</th>
+            <th>Gender</th>
+            <th>sector</th>
+            <th>Department</th>
+            <th>position</th>
+            <th>Date-employee</th>
+        </tr>
+        </tfoot>
+      </table>
+    </div>
+    <!-- /.card-body -->
+  </div>
+  
+
+
+{%endblock content%}
+
+   
